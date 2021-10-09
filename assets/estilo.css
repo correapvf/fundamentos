@@ -1,0 +1,44 @@
+:root {
+    --fundo: #1C1C1C;
+    --fonte: #EEEEEE;
+    --busca: #333333;
+    --grid: #424242;
+}
+
+body {
+    background-color: var(--fundo);
+    font-size: large;
+    color: var(--fonte);
+
+}
+
+.Select-menu-outer { 
+    background-color: var(--grid) !important;
+}
+
+.VirtualizedSelectFocusedOption {
+    background-color: var(--busca);
+}
+
+.Select-value-label {
+    color: var(--fonte);
+
+}
+
+.Select input { 
+    color: var(--fonte);
+}
+
+a:link {
+    color: #0250BB;
+}
+  
+a:visited {
+    color: #0250BB;
+}
+
+.dash-header {
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
+}

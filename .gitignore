@@ -1,0 +1,4 @@
+.vscode/
+__pycache__/
+dados/
+workspace.code-workspace
